@@ -1,0 +1,36 @@
+{
+  "name": "xnsapp",
+  "version": "1.0.0",
+  "description": "A desktop application for XNSDiagrams.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tjor75/XNSApp.git"
+  },
+  "keywords": [
+    "xnsdiagrams"
+  ],
+  "author": "Lucas Tjor",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/tjor75/XNSApp/issues"
+  },
+  "homepage": "https://github.com/tjor75/XNSApp#readme",
+  "devDependencies": {
+    "@electron-forge/cli": "^6.4.2",
+    "@electron-forge/maker-deb": "^6.4.2",
+    "@electron-forge/maker-rpm": "^6.4.2",
+    "@electron-forge/maker-squirrel": "^6.4.2",
+    "@electron-forge/maker-zip": "^6.4.2",
+    "@electron-forge/plugin-auto-unpack-natives": "^6.4.2",
+    "electron": "^27.0.2"
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0"
+  }
+}
